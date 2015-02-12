@@ -1,0 +1,38 @@
+{
+  "name": "generator-thrbrdfe",
+  "version": "0.0.0",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "thrbrd/generator-thrbrdfe",
+  "author": {
+    "name": "thrbrd",
+    "email": "",
+    "url": "https://github.com/thrbrd"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "browser-sync": "^2.0.1",
+    "chalk": "^0.5.0",
+    "gulp": "^3.8.11",
+    "yeoman-generator": "^0.18.0",
+    "yosay": "^0.3.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}
